@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Auto Tracking CMA CGM</title>
+  </head>
+  <body>
+    <form id="autoForm" action="https://www.cma-cgm.com/ebusiness/tracking/search" method="post" target="_blank">
+      <input type="hidden" name="SearchViewModel.Reference" value="CMAU0587016">
+      <input type="hidden" name="SearchViewModel.FromHome" value="true">
+      <input type="hidden" name="SearchViewModel.SearchBy" value="Container">
+      <input type="hidden" name="g-recaptcha-response" value="">
+    </form>
+    <script>
+      document.getElementById('autoForm').submit();
+    </script>
+  </body>
+</html>
